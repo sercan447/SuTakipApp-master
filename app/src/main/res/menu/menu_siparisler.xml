@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu_siparis_birhaftalik" android:title="1 Haftalıık" ></item>
+    <item android:id="@+id/menu_siparis_ikihaftalik" android:title="2 Haftalıık" ></item>
+    <item android:id="@+id/menu_siparis_biraylik" android:title="1 Aylık" ></item>
+    <item android:id="@+id/menu_siparis_tarihegore" android:title="Tarihe Göre" ></item>
+
+</menu>

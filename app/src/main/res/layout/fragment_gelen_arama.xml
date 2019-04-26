@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.GelenAramaFragment">
+
+
+    <TextView
+        android:id="@+id/tv_veriBulunamadi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="Gerçek Zamanlı bir arama Bulunamadı." />
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_marginTop="40dp"
+        android:id="@+id/swipelayout_anlikcagrilar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+
+
+            android:id="@+id/recyclerView_anlikcagri"
+            android:layout_width="match_parent"
+            android:layout_height="800dp">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

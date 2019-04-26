@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/relative"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".Fragments.ReportFragment">
+
+<LinearLayout
+    android:id="@+id/linearlayout_raporlama"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_toplamUrun"
+                android:foreground="?android:selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginRight="100dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/compare"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="Satılan / İptal Toplam Ürün Adeti"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_activeUrun"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                android:layout_marginRight="100dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/chart"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="Satış Raporları"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_donemselSiparis"
+                android:foreground="?android:selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginRight="100dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/statistics"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="Dönemsel Sipariş Sayısı"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_toplamMusteriSiparis"
+                    android:foreground="?android:selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_marginRight="100dp"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:src="@drawable/growth"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:text="Müşteri Sipariş İstatistiği"/>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_siparisVermeyenler"
+                android:foreground="?android:selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginRight="100dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/filter"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="Belirli Dönemlerde Sipariş Vermeyen Müşteriler"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_siparisVermeyenler1"
+                android:foreground="?android:selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginRight="100dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/filter"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

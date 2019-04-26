@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SiparisFragment">
+
+
+    <android.support.design.widget.TabLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tabs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="?attr/colorPrimary"
+        android:textAllCaps="true"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/secondaryTextColor"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/zemin"
+        tools:ignore="MissingConstraints">
+
+
+    </android.support.design.widget.TabLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="828dp"
+        android:layout_marginBottom="16dp">
+
+
+    </android.support.v4.view.ViewPager>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_siparisEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|right"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="@color/secondaryColor"
+        android:clickable="true"
+        android:src="@drawable/ic_add"
+        tools:ignore="MissingConstraints" />
+
+
+
+</RelativeLayout>

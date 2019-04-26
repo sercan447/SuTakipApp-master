@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AracFragment">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linearlayout_musteri_header"
+        android:background="@drawable/drw_line_cerceve"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+
+            android:layout_width="64px"
+            android:layout_height="32px"
+            android:src="@drawable/car"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Araç Plaka"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Araç Numarası"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Araç Tipi     "
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_veriBulunamadi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:visibility="gone"
+        android:text="Veri Bulunamadı.." />
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_marginTop="40dp"
+        android:id="@+id/recyclerview_araclar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></android.support.v7.widget.RecyclerView>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_aracEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="#fff"
+        android:clickable="true"
+        android:src="@drawable/ic_add" />
+
+</RelativeLayout>

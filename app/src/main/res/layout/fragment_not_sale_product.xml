@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AracaAitSiparisFragment">
+
+
+    <LinearLayout
+    android:id="@+id/layout_siparisVermeyenMusteri"
+    android:layout_marginBottom="20dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <EditText
+        android:hint="Başlangıc Tarihi"
+        android:id="@+id/dpckr_basliangictarihi_musteri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:hint="Bitiş Tarihi"
+        android:id="@+id/dpckr_bitistarihi_musteri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_olmayanMusteri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:textColor="#fff"
+        android:text="Sırala"/>
+</LinearLayout>
+
+
+<TextView
+    android:id="@+id/tv_veriBulunamadi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:visibility="gone"
+    android:text="Veri Bulunamadı.." />
+
+<LinearLayout
+    android:paddingTop="25dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_siparisVermeyenMusteri"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</RelativeLayout>

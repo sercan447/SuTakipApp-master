@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_arama_urun"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always|collapseActionView"
+        android:title="Ara"></item>
+
+    <item android:id="@+id/menu_card_urun" android:title="Kutu"
+          android:icon="@drawable/ic_card"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/menu_list_urun"
+          android:icon="@drawable/ic_list"
+        app:showAsAction="always"
+        android:title="Liste"></item>
+
+    <item android:id="@+id/menu_rastele_urun"
+        app:showAsAction="always"
+        android:title="Rastgele"
+        android:icon="@drawable/ic_rastgele"></item>
+
+    <item android:id="@+id/menu_a-z_urun"
+        android:title="A-Z Sırala"
+        app:showAsAction="never"></item>
+
+    <item android:id="@+id/menu_z-a_urun"
+        android:title="Z-A Sırala"
+        app:showAsAction="never"></item>
+
+</menu>

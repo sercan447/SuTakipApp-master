@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item android:id="@+id/menu_araca_ait_siparisler" android:title="Araca Ait Siparişler"></item>
+<item android:id="@+id/menu_araca_ait_bilgiler" android:title="Arac Stok Bilgileri"></item>
+    <item android:id="@+id/menu_araca_stokEkle" android:title="Günlük Stok Ekle"></item>
+
+</menu>

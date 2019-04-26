@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Su Takip Mobil App</string>
+
+    <string name="str_telefonNo_login">Telefon Numaranız </string>
+    <string name="str_parola_login">Parola</string>
+    <string name="str_beniHatirla_login">Beni Hatırla</string>
+    <string name="str_girisyap_login">Giriş Yap</string>
+
+    <string name="str_persoenlAdi">Personel Adı giriniz.</string>
+    <string name="str_personelSoyadi">Personel Soyadı giriniz.</string>
+    <string name="str_personelTelefon1">1.Telefonu giriniz.</string>
+    <string name="str_personelBilgi">Herhangi bir bilgi giriniz.</string>
+    <string name="str_personelParola">Parola giriniz.</string>
+
+    <string name="str_musteriAdi">Adı giriniz.</string>
+    <string name="str_musteriSoyadi">Soyadı giriniz.</string>
+    <string name="str_musteriTel1">1.Telefonu giriniz.</string>
+    <string name="str_musteriTel2">2.Telefonu giriniz.</string>
+    <string name="str_musteriTel3">3.Telefonu giriniz.</string>
+    <string name="str_musteriAdres1">1. adresinizi giriniz.</string>
+    <string name="str_musteriAdres2">2. adresinizi giriniz.</string>
+    <string name="str_musteriBilgi">Müşteri ile ilgili bilgi giriniz.</string>
+    <string name="str_musteriEkleBtn">Müşteri Ekle</string>
+
+    <string name="str_urunAdi">Ürün adı giriniz.</string>
+    <string name="str_urunTipi">Ürün Tipi giriniz.</string>
+    <string name="str_urunBoyutu">Ürün Boyutu Giriniz.</string>
+    <string name="str_urunBilgi">Ürün hakkında bir bilgi giriniz.</string>
+    <string name="str_urunKayit">Ürün Ekle</string>
+
+    <string name="str_siparisAlanKisi">Siparişi isteyen kişi</string>
+    <string name="str_siparisBilgi">Sipariş hakkında bilgi giriniz.</string>
+
+    <string name="str_firmaAdi">Firma Adı giriniz.</string>
+    <string name="str_firmaTelefon">Firma Telefonu giriniz.</string>
+    <string name="str_firmaBilgi">Firma ile ilgili bilgi giriniz.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="kullanici_tipi">
+        <item>Yetki Türü Seçiniz.</item>
+        <item>Yönetici</item>
+        <item>Sekreter</item>
+        <item>Sürücü</item>
+    </string-array>
+
+    <string-array name="odeme_turu">
+        <item>Ödeme Türü Seçiniz.</item>
+        <item>Nakit</item>
+        <item>Kredi Kartı</item>
+        <item>E-Ticaret</item>
+        <item>Veresiye</item>
+        <item>Emanet</item>
+    </string-array>
+
+    <string-array name="musteri_firma">
+        <item>A Firması</item>
+        <item>B Firması</item>
+        <item>C Firması</item>
+    </string-array>
+    <string-array name="arac_model">
+        <item>A modeli</item>
+        <item>B modeli</item>
+        <item>C modeli</item>
+    </string-array>
+    <string-array name="urun_turu">
+        <item>Damacana</item>
+        <item>Şişe</item>
+        <item>Bardak</item>
+    </string-array>
+    <string-array name="urun_boyutu">
+        <item>50 cc</item>
+        <item>20 db </item>
+        <item>57 db</item>
+    </string-array>
+
+    <string-array name="siparisDurum">
+        <item>İptal</item>
+        <item>Teslimatta</item>
+        <item>Sipariş</item>
+    </string-array>
+    <string-array name="yillar">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+    <string name="title_activity_harita_maps">Map</string>
+</resources>
